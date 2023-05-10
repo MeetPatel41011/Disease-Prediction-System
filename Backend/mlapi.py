@@ -38,7 +38,6 @@ class ScoringItems3(BaseModel):
     Hypoacusis:float
     Diplopia:float
     Defect: float
-    Ataxia:float
     Conscience:float
     Paresthesia:float
     DPF:float

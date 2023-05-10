@@ -110,7 +110,6 @@ const [tinnitus, setTinnitus] = useState();
 const [hypoacusis, setHypoacusis] = useState();
 const [diplopia, setDiplopia] = useState();
 const [defect, setDefect] = useState();
-const [ataxia, setAtaxia] = useState();
 const [conscience, setConscience] = useState();
 const [paresthesia, setParesthesia] = useState();
 const [dpf, setDPF] = useState();
@@ -136,7 +135,6 @@ const [dpf, setDPF] = useState();
     hypoacusis,
     diplopia,
     defect,
-    ataxia,
     conscience,
     paresthesia,
     dpf
@@ -149,7 +147,6 @@ const [dpf, setDPF] = useState();
     const nausea2 = parseFloat(nausea);
     const tinnitus2 = parseFloat(tinnitus);
     const hypoacusis2 = parseFloat(hypoacusis);
-    const ataxia2 = parseFloat(ataxia);
     const vomit2 = parseFloat(vomit);
     const defect2 = parseFloat(defect);
     const sensory2 = parseFloat(sensory);
@@ -185,7 +182,6 @@ const [dpf, setDPF] = useState();
       Hypoacusis: hypoacusis2,
       Diplopia: diplopia2,
       Defect: defect2,
-      Ataxia: ataxia2,
       Conscience: conscience2,
       Paresthesia: paresthesia2,
       DPF: dpf2,
@@ -523,21 +519,7 @@ const [dpf, setDPF] = useState();
           type="number"
           onChange={(e) => setDefect(e.target.value)}
         ></TextField>
-         <TextField
-              class="TextField"         
- InputProps={{
-      
- style: { color: "#ffffff" } // change text color
-              }}
-              InputLabelProps={{
-                style: { color: "#ffffff" } // change label color
-              }}
-          id="filled-basic"
-          placeholder="Ataxia"
-          variant="filled"
-          type="number"
-          onChange={(e) => setAtaxia(e.target.value)}
-        ></TextField>
+         
          <TextField
               class="TextField"         
  InputProps={{
@@ -608,7 +590,6 @@ const [dpf, setDPF] = useState();
               hypoacusis,
               diplopia,
               defect,
-              ataxia,
               conscience,
               paresthesia,
               dpf
