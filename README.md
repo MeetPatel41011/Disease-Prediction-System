@@ -17,7 +17,7 @@ python -m venv YOU_NEW_DIRECTORY_NAME
 
 .\YOU_NEW_DIRECTORY_NAME\Scripts\activate
 
-pip install uvicorn gunicorn fastapi pydantic sklearn pandas
+pip install uvicorn gunicorn fastapi pydantic scikit-learn pandas
  
 uvicorn mlapi:app --reload
 

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Exception\Desktop\Project\Backend\ml
+set VIRTUAL_ENV=C:\Users\Exception\Desktop\Project\Disease Prediction System\Backend\ml
 
 if not defined PROMPT set PROMPT=$P$G
 
