@@ -1,6 +1,6 @@
 # Disease-Prediction-System
 
-# #Machine Learning Dir
+## Machine Learning Dir
 Contains .ipynb files ( Machine Learning Models ) and Datasets.
 You can view each diseases's .ipynb file and its dataset in their perticular foldar.
 
