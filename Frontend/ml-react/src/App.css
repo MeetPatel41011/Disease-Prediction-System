@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+Button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+Button {
+    margin: 10px 0; 
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 20%;
+    padding-left: 20%;
+    
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+
+.TextField {
+    padding-top: 20px;
+    padding-bottom: 2px;
+    padding-left: 51px;
+    color: blue;
+    display: inline-block;
+}
+
+.TextFields  {
+    justify-content: center;
+    align-items: center;
+    color: orange !important;
+}
+
+.button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Add this line to add space between the buttons */
+    align-items: center;
+    margin-top: 20px;
+    height: 100%; /* Add this line to make the container take up the full height */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .Button-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  Button {
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .main{
+    position: "relative"
+  }
+
+  .components{
+    /* position: "absolute";
+    top: "50%";
+    left: "50%";
+    transform: "translate(-50%, -50%)";
+    color: white; */
+  }
+
+  .switch{
+    position: "absolute";
+    top: "50%";
+    left: "50%";
+    transform: "translate(-50%, -50%)";
+    padding-bottom: 50px;
+  }
+
+  .switch{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+  }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.notation {
+  position: absolute;
+ 
+  color: white;
+}
+
+.notation2 {
+  position: absolute;
+
+ 
+  color: black;
+}
+
+
+.notes{
+  margin-bottom: 10px;
+}
+
+.note2{
+  margin-bottom: 10px;
+}
+
+
+
+
+ 

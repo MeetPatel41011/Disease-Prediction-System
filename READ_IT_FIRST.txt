@@ -1,0 +1,12 @@
+
+python -m venv YOUR_DIRECTORY
+.\YOUR_DIRECTORY\Scripts\activate
+pip install uvicorn gunicorn fastapi pydantic sklearn pandas
+ 
+RUN THIS 2 COMMANDS IN 'API' FOLDER FIRST
+.\ml\Scripts\activate
+uvicorn mlapi:app --reload
+
+RUN THIS IN REACT
+NPM RN DEV
+
