@@ -32,3 +32,5 @@ Go to Frontend dir in your terminal and run,
 npm install
 
 NPM RUN DEV
+
+<img src="https://t.bkit.co/w_64ba1fc5798f2.gif" />
