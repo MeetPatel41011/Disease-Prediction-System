@@ -10,7 +10,7 @@ And contains a Python file, which basically takes .pkl files and makes an API.
 
 ### To run the Backend
 
-Go to the "Backend" directory in your terminal and run the snippets mentioned below, in order to run the backend.
+Go to the "Backend" directory in your terminal and run these snippets mentioned below, in order to run the backend.
 
 ```python -m venv ml```
 
