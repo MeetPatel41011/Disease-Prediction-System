@@ -1,5 +1,6 @@
-with open("heart.txt") as infile:
-    # Read space-delimited file and replace all empty spaces by commas
+with open("lung-cancer (1).data") as infile:
+    # Read space-delimited file
+    # And, replace spaces by commas.
     data = infile.read().replace(' ', ',')
-    # Write the CSV data in the output file
+    # Generate an Output file ( A .csv file)
     print(data, file=open('my_file.csv', 'w'))
